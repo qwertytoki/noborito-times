@@ -1,0 +1,13 @@
+{
+  "_comment": "毎日の記事生成時に監視する情報源。Instagramは直接読めない（ログインウォール）ため、アカウント名や関連キーワードのWeb検索＋下記ミラーメディアの確認で追う。",
+  "instagram": [
+    { "account": "nishi_nishikk", "note": "登戸の地域情報" },
+    { "account": "noborito_walker", "note": "登戸さんぽ・グルメ" },
+    { "account": "noboritosodatetai", "note": "登戸の子育て・地域情報" },
+    { "account": "noborito_machinaka_yuenchi", "note": "登戸まちなか遊縁地（登戸のイベント主催。区画整理の空き地活用イベントを多数開催）" }
+  ],
+  "web": [
+    { "url": "https://kawasakitama.goguynet.jp/", "note": "号外NET 川崎市多摩区。登戸のInstagram発ネタをほぼ数日以内に記事化するので実質ミラーとして使える" },
+    { "url": "https://www.townnews.co.jp/0203/", "note": "タウンニュース 多摩区・麻生区版" }
+  ]
+}
