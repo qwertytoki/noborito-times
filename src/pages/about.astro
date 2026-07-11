@@ -1,0 +1,36 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { SITE_TITLE } from '../consts';
+---
+
+<BaseLayout title="このサイトについて">
+  <div class="article prose">
+    <h1 class="article-title">このサイトについて</h1>
+    <div class="article-body">
+      <p>
+        {SITE_TITLE}は、小田急線・JR南武線の登戸駅、および向ヶ丘遊園駅周辺（川崎市多摩区）に密着した地域情報サイトです。
+        グルメ情報やお店の開店・閉店、街づくりの動き、イベントなど、登戸エリアの「今」がわかる情報をお届けします。
+      </p>
+
+      <h2>記事の作り方について</h2>
+      <p>
+        当サイトの記事は、AI（Claude）が公開情報をもとに草稿を作成し、運営者が内容を確認・承認したうえで公開しています。
+        各記事には根拠とした出典・参考リンクを記載しています。
+      </p>
+
+      <h2>免責事項</h2>
+      <p>
+        掲載内容は記事公開時点の情報であり、正確性・完全性を保証するものではありません。
+        営業時間や価格などの最新情報は、必ず各店舗・施設の公式情報をご確認ください。
+        当サイトの情報によって生じたいかなる損害についても、運営者は責任を負いかねます。
+      </p>
+
+      <h2>掲載情報の訂正について</h2>
+      <p>
+        記載内容に誤りを見つけた場合や、掲載の削除をご希望の場合は、
+        <a href="https://github.com/qwertytoki/noborito-times/issues" target="_blank" rel="noopener noreferrer">GitHubリポジトリのIssue</a>
+        よりご連絡ください。確認のうえ速やかに対応します。
+      </p>
+    </div>
+  </div>
+</BaseLayout>

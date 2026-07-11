@@ -1,0 +1,63 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { CATEGORIES, withBase, formatDate } from '../../consts';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('posts');
+  return posts.map((post) => ({ params: { id: post.id }, props: { post } }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+const categoryLabel = CATEGORIES[post.data.category as keyof typeof CATEGORIES];
+---
+
+<BaseLayout
+  title={post.data.title}
+  description={post.data.description}
+  currentCategory={post.data.category}
+>
+  <article class="article">
+    <a class="category-badge" href={withBase(`/category/${post.data.category}/`)}>
+      {categoryLabel}
+    </a>
+    <h1 class="article-title">{post.data.title}</h1>
+    <p class="article-meta">
+      <time datetime={post.data.pubDate.toISOString()}>{formatDate(post.data.pubDate)}</time>
+      公開
+    </p>
+
+    <div class="article-body">
+      <Content />
+    </div>
+
+    <!-- ad slot: article-bottom -->
+
+    {
+      post.data.tags.length > 0 && (
+        <div class="tag-list">
+          {post.data.tags.map((tag) => (
+            <span>#{tag}</span>
+          ))}
+        </div>
+      )
+    }
+
+    <aside class="article-sources">
+      <h2>出典・参考</h2>
+      <ul>
+        {
+          post.data.sources.map((url) => (
+            <li>
+              <a href={url} target="_blank" rel="noopener noreferrer">
+                {url}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+      <p>掲載内容は記事公開時点の情報です。最新の情報は各公式サイト等でご確認ください。</p>
+    </aside>
+  </article>
+</BaseLayout>

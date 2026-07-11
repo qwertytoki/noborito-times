@@ -1,0 +1,72 @@
+---
+import '../styles/global.css';
+import { SITE_TITLE, SITE_TAGLINE, SITE_DESCRIPTION, CATEGORIES, withBase } from '../consts';
+
+interface Props {
+  title?: string;
+  description?: string;
+  currentCategory?: string;
+}
+
+const { title, description = SITE_DESCRIPTION, currentCategory } = Astro.props;
+const pageTitle = title ? `${title} | ${SITE_TITLE}` : `${SITE_TITLE} | ${SITE_TAGLINE}`;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+---
+
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" href={withBase('/favicon.svg')} type="image/svg+xml" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title={SITE_TITLE}
+      href={withBase('/rss.xml')}
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:site_name" content={SITE_TITLE} />
+    <meta name="twitter:card" content="summary" />
+    <!-- ad slot: head (AdSense導入時にスクリプトを設置) -->
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <h1 class="site-title"><a href={withBase('/')}>{SITE_TITLE}</a></h1>
+        <p class="site-tagline">{SITE_TAGLINE}</p>
+        <nav class="category-nav" aria-label="カテゴリ">
+          {
+            Object.entries(CATEGORIES).map(([key, label]) => (
+              <a
+                href={withBase(`/category/${key}/`)}
+                aria-current={currentCategory === key ? 'page' : undefined}
+              >
+                {label}
+              </a>
+            ))
+          }
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <nav>
+          <a href={withBase('/about/')}>このサイトについて</a>
+          <a href={withBase('/rss.xml')}>RSS</a>
+        </nav>
+        <p>© 2026 {SITE_TITLE} All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>

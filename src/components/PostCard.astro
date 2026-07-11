@@ -1,0 +1,24 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { CATEGORIES, withBase, formatDate } from '../consts';
+
+interface Props {
+  post: CollectionEntry<'posts'>;
+}
+
+const { post } = Astro.props;
+const categoryLabel = CATEGORIES[post.data.category as keyof typeof CATEGORIES];
+---
+
+<li class="post-card">
+  <div class="post-card-meta">
+    <a class="category-badge" href={withBase(`/category/${post.data.category}/`)}>
+      {categoryLabel}
+    </a>
+    <time datetime={post.data.pubDate.toISOString()}>{formatDate(post.data.pubDate)}</time>
+  </div>
+  <h2 class="post-card-title">
+    <a href={withBase(`/posts/${post.id}/`)}>{post.data.title}</a>
+  </h2>
+  <p class="post-card-description">{post.data.description}</p>
+</li>

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://qwertytoki.github.io/noborito-times/sitemap-index.xml

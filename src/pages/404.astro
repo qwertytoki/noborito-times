@@ -1,0 +1,12 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { withBase } from '../consts';
+---
+
+<BaseLayout title="ページが見つかりません">
+  <div class="prose">
+    <h2 class="page-heading">ページが見つかりません</h2>
+    <p>お探しのページは移動または削除された可能性があります。</p>
+    <p><a href={withBase('/')}>トップページへ戻る</a></p>
+  </div>
+</BaseLayout>
