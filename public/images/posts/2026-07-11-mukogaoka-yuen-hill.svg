@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <defs>
+    <linearGradient id="sky2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e3f2ee"/>
+      <stop offset="1" stop-color="#faf6e9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#sky2)"/>
+  <circle cx="180" cy="140" r="58" fill="#f2a24b"/>
+  <g stroke="#557d76" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.7">
+    <path d="M840 120 q 22 -18 44 0"/>
+    <path d="M905 95 q 22 -18 44 0"/>
+  </g>
+  <!-- hills -->
+  <path d="M0 430 Q 300 300 620 420 T 1200 400 V 675 H 0 Z" fill="#7fb5aa"/>
+  <path d="M0 520 Q 350 390 720 500 T 1200 480 V 675 H 0 Z" fill="#3f8a7d"/>
+  <path d="M0 610 Q 400 500 820 590 T 1200 570 V 675 H 0 Z" fill="#12655b"/>
+  <!-- path -->
+  <path d="M560 675 C 600 590 480 540 560 480 C 620 435 700 430 740 400" stroke="#f5efdd" stroke-width="26" fill="none" stroke-linecap="round"/>
+  <!-- trees -->
+  <g>
+    <rect x="285" y="395" width="14" height="42" fill="#6b4f2e"/>
+    <circle cx="292" cy="375" r="42" fill="#1d6d5f"/>
+    <rect x="945" y="415" width="14" height="42" fill="#6b4f2e"/>
+    <circle cx="952" cy="393" r="46" fill="#2c8172"/>
+    <rect x="120" y="500" width="16" height="48" fill="#6b4f2e"/>
+    <circle cx="128" cy="474" r="52" fill="#2c8172"/>
+  </g>
+  <!-- small buildings at hill base (shops/onsen) -->
+  <g>
+    <rect x="640" y="520" width="120" height="80" rx="8" fill="#f5efdd"/>
+    <path d="M630 525 L 700 480 L 770 525 Z" fill="#c2762a"/>
+    <rect x="678" y="555" width="44" height="45" fill="#3f8a7d"/>
+    <path d="M820 520 q 10 -22 0 -40 M845 520 q 10 -22 0 -40" stroke="#f5efdd" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.9"/>
+  </g>
+  <text x="40" y="640" fill="#e6f2f0" font-size="26" opacity="0.9">イメージ</text>
+  <text x="1160" y="640" fill="#e6f2f0" font-size="26" text-anchor="end" opacity="0.7">登戸タイムズ</text>
+</svg>

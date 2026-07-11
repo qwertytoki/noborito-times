@@ -8,6 +8,9 @@ sources:
   - https://tetsudo-ch.com/13018064.html
   - https://urban-development.jp/area/noborito-202512/
   - https://www.city.kawasaki.jp/500/page/0000109989.html
+heroImage: /images/posts/2026-07-11-noborito-ekimae-tower.svg
+heroImageAlt: 登戸駅前の再開発イメージイラスト
+heroImageCredit: イラスト:登戸タイムズ（AI生成イメージ）
 ---
 
 登戸駅周辺では、1988年から続く「登戸土地区画整理事業」の総仕上げとして、駅前の再開発が大きく動いています。

@@ -14,7 +14,8 @@ const categoryLabel = CATEGORIES[post.data.category as keyof typeof CATEGORIES];
 
 const hero = post.data.heroImage;
 const heroSrc = hero ? (hero.startsWith('http') ? hero : withBase(hero)) : undefined;
-const ogImage = heroSrc ? new URL(heroSrc, Astro.site).href : undefined;
+// SVGはSNSのOGP画像として非対応のため除外
+const ogImage = heroSrc && !heroSrc.endsWith('.svg') ? new URL(heroSrc, Astro.site).href : undefined;
 
 // SNS埋め込み（blockquote）が本文にある場合だけ各公式スクリプトを読み込む
 const body = post.body ?? '';

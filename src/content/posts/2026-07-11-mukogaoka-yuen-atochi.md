@@ -8,6 +8,9 @@ sources:
   - https://noborito.biz/mukou01/
   - https://www.ryutsuu.biz/store/k120441.html
   - https://www.city.kawasaki.jp/300/page/0000045580.html
+heroImage: /images/posts/2026-07-11-mukogaoka-yuen-hill.svg
+heroImageAlt: 緑の丘と施設のイメージイラスト
+heroImageCredit: イラスト:登戸タイムズ（AI生成イメージ）
 ---
 
 2002年に閉園した向ヶ丘遊園の跡地で、小田急電鉄による再開発事業が2026年2月上旬に着工しました。完成は2030年3月下旬の予定です。

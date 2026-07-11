@@ -8,6 +8,9 @@ sources:
   - https://prtimes.jp/main/html/rd/p/000000569.000015279.html
   - https://tamapon.com/2026/02/25/beansnoborito/
   - https://kawasakitama.goguynet.jp/2026/02/25/beamsnoboritoopen/
+heroImage: /images/posts/2026-07-11-beans-noborito.jpg
+heroImageAlt: ビーンズ登戸の外観イメージ
+heroImageCredit: 画像:ジェイアール東日本都市開発 プレスリリース（PR TIMES）より
 ---
 
 JR登戸駅直結のショッピングセンター「ビーンズ登戸」が、2026年3月25日（水）午前10時にグランドオープンしました。運営はジェイアール東日本都市開発です。

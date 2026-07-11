@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect width="1200" height="675" fill="#1d3a44"/>
+  <!-- wall panel -->
+  <rect x="0" y="0" width="1200" height="440" fill="#244852"/>
+  <!-- dartboard -->
+  <g>
+    <circle cx="950" cy="200" r="95" fill="#f5efdd"/>
+    <circle cx="950" cy="200" r="72" fill="#e05d5d"/>
+    <circle cx="950" cy="200" r="48" fill="#f5efdd"/>
+    <circle cx="950" cy="200" r="26" fill="#0f766e"/>
+    <circle cx="950" cy="200" r="9" fill="#f2a24b"/>
+    <path d="M950 200 L 1030 120" stroke="#f2a24b" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  <!-- desk -->
+  <rect x="0" y="440" width="1200" height="26" fill="#6b4f2e"/>
+  <rect x="0" y="466" width="1200" height="209" fill="#16303a"/>
+  <!-- monitor -->
+  <g>
+    <rect x="270" y="180" width="420" height="250" rx="14" fill="#10222a"/>
+    <rect x="290" y="200" width="380" height="200" rx="8" fill="#39b3a6"/>
+    <path d="M330 350 L 420 280 L 490 330 L 580 240" stroke="#eaf7f4" stroke-width="12" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="450" y="430" width="60" height="30" fill="#10222a"/>
+    <rect x="400" y="456" width="160" height="14" rx="7" fill="#10222a"/>
+  </g>
+  <!-- headphones on desk -->
+  <g stroke="#f2a24b" stroke-width="14" fill="none" stroke-linecap="round">
+    <path d="M120 430 q 70 -90 140 0"/>
+  </g>
+  <g fill="#f2a24b">
+    <rect x="106" y="420" width="30" height="46" rx="10"/>
+    <rect x="244" y="420" width="30" height="46" rx="10"/>
+  </g>
+  <!-- soft cream -->
+  <g>
+    <path d="M790 430 L 830 430 L 810 486 Z" fill="#c2762a"/>
+    <path d="M810 352 q 34 6 26 34 q 24 4 16 28 q -46 14 -84 0 q -8 -24 16 -28 q -8 -28 26 -34" fill="#f5efdd"/>
+  </g>
+  <!-- key (private room) -->
+  <g stroke="#9dc4bd" stroke-width="10" fill="none" stroke-linecap="round">
+    <circle cx="1080" cy="520" r="26"/>
+    <path d="M1100 540 L 1150 590 M1128 568 l 18 -14 M1146 586 l 16 -12"/>
+  </g>
+  <text x="40" y="640" fill="#dff0ed" font-size="26" opacity="0.9">イメージ</text>
+  <text x="1160" y="640" fill="#dff0ed" font-size="26" text-anchor="end" opacity="0.7">登戸タイムズ</text>
+</svg>

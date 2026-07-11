@@ -8,6 +8,9 @@ sources:
   - https://www.city.kawasaki.jp/templates/prs/500/0000188195.html
   - https://kawasakitama.goguynet.jp/2026/07/10/post-52539/
   - https://urban-development.jp/area/noborito-202607/
+heroImage: /images/posts/2026-07-11-noboritto-garden.svg
+heroImageAlt: 登戸駅前広場（のぼりっとガーデン）のイメージイラスト
+heroImageCredit: イラスト:登戸タイムズ（AI生成イメージ）
 ---
 
 登戸駅前で整備が進められていた駅前広場が完成し、2026年7月1日（水）の始発バスから利用が始まりました。川崎市の発表によると、広場の愛称は「のぼりっとガーデン」に決定したとのことです。

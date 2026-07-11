@@ -8,6 +8,9 @@ sources:
   - https://www.kaikatsu.jp/shop/detail/20895.html
   - https://kawasakitama.goguynet.jp/2026/02/26/kaikatsuclubnoborito/
   - https://x.com/kaikatsuclub_jp/status/2026905593555071226
+heroImage: /images/posts/2026-02-26-kaikatsu-netcafe.svg
+heroImageAlt: インターネットカフェのイメージイラスト
+heroImageCredit: イラスト:登戸タイムズ（AI生成イメージ）
 ---
 
 インターネットカフェ「快活CLUB登戸駅前店」が、2026年2月26日（木）にオープンしました。場所は登戸駅から徒歩1分、川崎市多摩区登戸3414 ヨシザワセントラルビルの3階です。

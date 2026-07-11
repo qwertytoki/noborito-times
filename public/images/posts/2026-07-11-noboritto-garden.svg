@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <defs>
+    <linearGradient id="sky3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e6f1f0"/>
+      <stop offset="1" stop-color="#f8f4e9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#sky3)"/>
+  <circle cx="1030" cy="120" r="55" fill="#f2a24b"/>
+  <!-- station canopy -->
+  <g>
+    <rect x="70" y="170" width="420" height="26" rx="13" fill="#1d4a50"/>
+    <rect x="100" y="196" width="16" height="180" fill="#1d4a50"/>
+    <rect x="430" y="196" width="16" height="180" fill="#1d4a50"/>
+    <text x="280" y="152" font-size="34" text-anchor="middle" fill="#1d4a50" font-weight="bold">登戸駅</text>
+  </g>
+  <!-- plaza ground -->
+  <rect x="0" y="470" width="1200" height="205" fill="#c9c2ae"/>
+  <rect x="0" y="470" width="1200" height="14" fill="#a89f87"/>
+  <!-- bus -->
+  <g>
+    <rect x="120" y="330" width="360" height="150" rx="20" fill="#0f766e"/>
+    <rect x="145" y="355" width="70" height="55" rx="8" fill="#dff0ed"/>
+    <rect x="230" y="355" width="70" height="55" rx="8" fill="#dff0ed"/>
+    <rect x="315" y="355" width="70" height="55" rx="8" fill="#dff0ed"/>
+    <rect x="400" y="355" width="55" height="90" rx="8" fill="#dff0ed"/>
+    <circle cx="200" cy="485" r="30" fill="#2b2b2b"/>
+    <circle cx="200" cy="485" r="13" fill="#9aa2ac"/>
+    <circle cx="400" cy="485" r="30" fill="#2b2b2b"/>
+    <circle cx="400" cy="485" r="13" fill="#9aa2ac"/>
+    <rect x="120" y="440" width="360" height="14" fill="#0c5d57"/>
+  </g>
+  <!-- rain garden bed -->
+  <g>
+    <rect x="640" y="470" width="460" height="46" rx="10" fill="#6b4f2e"/>
+    <g fill="#2c8172">
+      <path d="M680 470 q 15 -50 30 0 Z"/>
+      <path d="M730 470 q 15 -64 30 0 Z"/>
+      <path d="M785 470 q 15 -46 30 0 Z"/>
+      <path d="M950 470 q 15 -58 30 0 Z"/>
+      <path d="M1005 470 q 15 -44 30 0 Z"/>
+    </g>
+    <circle cx="850" cy="430" r="26" fill="#1d6d5f"/>
+    <rect x="843" y="446" width="14" height="24" fill="#6b4f2e"/>
+    <!-- raindrops soaking in -->
+    <g fill="#5db3d4">
+      <path d="M700 340 q 10 18 0 26 q -10 -8 0 -26"/>
+      <path d="M760 300 q 10 18 0 26 q -10 -8 0 -26"/>
+      <path d="M980 320 q 10 18 0 26 q -10 -8 0 -26"/>
+      <path d="M1040 370 q 10 18 0 26 q -10 -8 0 -26"/>
+    </g>
+  </g>
+  <!-- bench -->
+  <g fill="#c2762a">
+    <rect x="560" y="520" width="150" height="16" rx="8"/>
+    <rect x="572" y="536" width="14" height="40"/>
+    <rect x="684" y="536" width="14" height="40"/>
+  </g>
+  <text x="40" y="640" fill="#5a5340" font-size="26" opacity="0.9">イメージ</text>
+  <text x="1160" y="640" fill="#5a5340" font-size="26" text-anchor="end" opacity="0.7">登戸タイムズ</text>
+</svg>
