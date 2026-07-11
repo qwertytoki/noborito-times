@@ -11,12 +11,22 @@ export async function getStaticPaths() {
 const { post } = Astro.props;
 const { Content } = await render(post);
 const categoryLabel = CATEGORIES[post.data.category as keyof typeof CATEGORIES];
+
+const hero = post.data.heroImage;
+const heroSrc = hero ? (hero.startsWith('http') ? hero : withBase(hero)) : undefined;
+const ogImage = heroSrc ? new URL(heroSrc, Astro.site).href : undefined;
+
+// SNS埋め込み（blockquote）が本文にある場合だけ各公式スクリプトを読み込む
+const body = post.body ?? '';
+const hasTwitterEmbed = body.includes('twitter-tweet');
+const hasInstagramEmbed = body.includes('instagram-media');
 ---
 
 <BaseLayout
   title={post.data.title}
   description={post.data.description}
   currentCategory={post.data.category}
+  image={ogImage}
 >
   <article class="article">
     <a class="category-badge" href={withBase(`/category/${post.data.category}/`)}>
@@ -27,6 +37,15 @@ const categoryLabel = CATEGORIES[post.data.category as keyof typeof CATEGORIES];
       <time datetime={post.data.pubDate.toISOString()}>{formatDate(post.data.pubDate)}</time>
       公開
     </p>
+
+    {
+      heroSrc && (
+        <figure class="article-hero">
+          <img src={heroSrc} alt={post.data.heroImageAlt ?? post.data.title} />
+          {post.data.heroImageCredit && <figcaption>{post.data.heroImageCredit}</figcaption>}
+        </figure>
+      )
+    }
 
     <div class="article-body">
       <Content />
@@ -60,4 +79,7 @@ const categoryLabel = CATEGORIES[post.data.category as keyof typeof CATEGORIES];
       <p>掲載内容は記事公開時点の情報です。最新の情報は各公式サイト等でご確認ください。</p>
     </aside>
   </article>
+
+  {hasTwitterEmbed && <script async src="https://platform.twitter.com/widgets.js" is:inline></script>}
+  {hasInstagramEmbed && <script async src="https://www.instagram.com/embed.js" is:inline></script>}
 </BaseLayout>

@@ -150,6 +150,29 @@ img {
   padding: 1rem 1.15rem;
 }
 
+.post-card-inner {
+  display: flex;
+  gap: 0.9rem;
+  align-items: flex-start;
+}
+
+.post-card-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.post-card-thumb {
+  flex: 0 0 auto;
+}
+
+.post-card-thumb img {
+  width: 92px;
+  height: 92px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+}
+
 .post-card-meta {
   display: flex;
   align-items: center;
@@ -215,6 +238,33 @@ a.category-badge:hover {
   margin-bottom: 1.4rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid var(--border);
+}
+
+.article-hero {
+  margin: 0 0 1.4rem;
+}
+
+.article-hero img {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+}
+
+.article-hero figcaption {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-top: 0.3rem;
+  text-align: right;
+}
+
+/* SNS埋め込み（X / Instagram） */
+.article-body .twitter-tweet,
+.article-body .instagram-media {
+  margin: 1.4rem auto !important;
+}
+
+.article-body iframe {
+  max-width: 100%;
 }
 
 .article-body h2 {

@@ -8,17 +8,30 @@ interface Props {
 
 const { post } = Astro.props;
 const categoryLabel = CATEGORIES[post.data.category as keyof typeof CATEGORIES];
+const hero = post.data.heroImage;
+const heroSrc = hero ? (hero.startsWith('http') ? hero : withBase(hero)) : undefined;
 ---
 
 <li class="post-card">
-  <div class="post-card-meta">
-    <a class="category-badge" href={withBase(`/category/${post.data.category}/`)}>
-      {categoryLabel}
-    </a>
-    <time datetime={post.data.pubDate.toISOString()}>{formatDate(post.data.pubDate)}</time>
+  <div class="post-card-inner">
+    <div class="post-card-text">
+      <div class="post-card-meta">
+        <a class="category-badge" href={withBase(`/category/${post.data.category}/`)}>
+          {categoryLabel}
+        </a>
+        <time datetime={post.data.pubDate.toISOString()}>{formatDate(post.data.pubDate)}</time>
+      </div>
+      <h2 class="post-card-title">
+        <a href={withBase(`/posts/${post.id}/`)}>{post.data.title}</a>
+      </h2>
+      <p class="post-card-description">{post.data.description}</p>
+    </div>
+    {
+      heroSrc && (
+        <a class="post-card-thumb" href={withBase(`/posts/${post.id}/`)} tabindex="-1" aria-hidden="true">
+          <img src={heroSrc} alt="" loading="lazy" />
+        </a>
+      )
+    }
   </div>
-  <h2 class="post-card-title">
-    <a href={withBase(`/posts/${post.id}/`)}>{post.data.title}</a>
-  </h2>
-  <p class="post-card-description">{post.data.description}</p>
 </li>

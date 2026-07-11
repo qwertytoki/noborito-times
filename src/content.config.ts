@@ -12,6 +12,11 @@ const posts = defineCollection({
     tags: z.array(z.string()).default([]),
     // 記事の根拠となった出典URL。必ず1件以上。
     sources: z.array(z.string().url()).min(1),
+    // アイキャッチ画像（public/内のパス or 外部URL）。使用条件はdocs/EDITORIAL.mdの画像ポリシー参照。
+    heroImage: z.string().optional(),
+    heroImageAlt: z.string().optional(),
+    // 画像の出典表記（例: 「画像: ○○プレスリリースより」）。転載画像には必須。
+    heroImageCredit: z.string().optional(),
   }),
 });
 
