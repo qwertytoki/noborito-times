@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect width="1200" height="675" fill="#3a2418"/>
+  <!-- storefront wall -->
+  <rect x="0" y="0" width="1200" height="480" fill="#4a2e1d"/>
+  <!-- awning -->
+  <g>
+    <path d="M120 210 L 1080 210 L 1050 300 L 150 300 Z" fill="#c23b2e"/>
+    <path d="M150 300 L 200 300 L 210 330 L 160 330 Z" fill="#e8e2d5"/>
+    <path d="M210 300 L 260 300 L 270 330 L 220 330 Z" fill="#c23b2e"/>
+    <path d="M270 300 L 320 300 L 330 330 L 280 330 Z" fill="#e8e2d5"/>
+    <path d="M330 300 L 380 300 L 390 330 L 340 330 Z" fill="#c23b2e"/>
+    <path d="M390 300 L 440 300 L 450 330 L 400 330 Z" fill="#e8e2d5"/>
+    <path d="M450 300 L 500 300 L 510 330 L 460 330 Z" fill="#c23b2e"/>
+    <path d="M510 300 L 560 300 L 570 330 L 520 330 Z" fill="#e8e2d5"/>
+    <path d="M570 300 L 620 300 L 630 330 L 580 330 Z" fill="#c23b2e"/>
+    <path d="M630 300 L 680 300 L 690 330 L 640 330 Z" fill="#e8e2d5"/>
+    <path d="M690 300 L 740 300 L 750 330 L 700 330 Z" fill="#c23b2e"/>
+    <path d="M750 300 L 800 300 L 810 330 L 760 330 Z" fill="#e8e2d5"/>
+    <path d="M810 300 L 860 300 L 870 330 L 820 330 Z" fill="#c23b2e"/>
+    <path d="M870 300 L 920 300 L 930 330 L 880 330 Z" fill="#e8e2d5"/>
+    <path d="M930 300 L 980 300 L 990 330 L 940 330 Z" fill="#c23b2e"/>
+    <path d="M990 300 L 1050 300 L 1040 330 L 1000 330 Z" fill="#e8e2d5"/>
+  </g>
+  <!-- windows -->
+  <rect x="180" y="360" width="280" height="120" rx="10" fill="#f4d9a8"/>
+  <rect x="740" y="360" width="280" height="120" rx="10" fill="#f4d9a8"/>
+  <!-- door -->
+  <rect x="540" y="330" width="120" height="150" rx="6" fill="#2b1a10"/>
+  <!-- scaffolding / renovation ladder leaning on wall (left side) -->
+  <g stroke="#d9d0c0" stroke-width="8" fill="none" stroke-linecap="round">
+    <path d="M70 470 L 110 250"/>
+    <path d="M100 470 L 140 250"/>
+    <path d="M76 430 L 106 430"/>
+    <path d="M82 370 L 112 370"/>
+    <path d="M88 310 L 118 310"/>
+  </g>
+  <!-- fried chicken bucket, center-bottom -->
+  <g>
+    <path d="M520 560 L 680 560 L 660 655 L 540 655 Z" fill="#e8562f"/>
+    <rect x="500" y="530" width="200" height="34" rx="8" fill="#f2a24b"/>
+    <path d="M540 555 q 20 -50 60 -10" stroke="#8a4a1e" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <path d="M600 550 q 20 -60 60 0" stroke="#8a4a1e" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <path d="M560 552 q 30 -70 80 10" stroke="#c2762a" stroke-width="12" fill="none" stroke-linecap="round"/>
+  </g>
+  <!-- steam -->
+  <g stroke="#f5efdd" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.7">
+    <path d="M560 500 q 14 -24 0 -48"/>
+    <path d="M600 500 q 14 -24 0 -48"/>
+    <path d="M640 500 q 14 -24 0 -48"/>
+  </g>
+  <!-- ground -->
+  <rect x="0" y="480" width="1200" height="195" fill="#2a1a10"/>
+  <text x="40" y="640" fill="#f4e8d8" font-size="26" opacity="0.9">イメージ</text>
+  <text x="1160" y="640" fill="#f4e8d8" font-size="26" text-anchor="end" opacity="0.7">登戸タイムズ</text>
+</svg>
