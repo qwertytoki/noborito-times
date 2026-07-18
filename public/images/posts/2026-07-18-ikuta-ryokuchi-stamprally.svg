@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <defs>
+    <linearGradient id="sky5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dff0e4"/>
+      <stop offset="1" stop-color="#fbf7e6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#sky5)"/>
+  <circle cx="1030" cy="120" r="64" fill="#f6c453"/>
+  <!-- distant hills -->
+  <path d="M0 380 Q 200 320 420 370 T 800 360 T 1200 380 V 675 H 0 Z" fill="#9bc9a0" opacity="0.55"/>
+  <!-- trees -->
+  <g fill="#5f9a6a">
+    <circle cx="120" cy="420" r="60"/>
+    <circle cx="200" cy="440" r="46"/>
+    <circle cx="980" cy="430" r="55"/>
+    <circle cx="1060" cy="450" r="42"/>
+  </g>
+  <rect x="105" y="440" width="16" height="60" fill="#7a5a3a"/>
+  <rect x="965" y="450" width="16" height="55" fill="#7a5a3a"/>
+  <!-- ground path -->
+  <path d="M0 520 Q 300 480 600 520 T 1200 520 V 675 H 0 Z" fill="#e8dcb8"/>
+  <!-- stamp cards -->
+  <g>
+    <rect x="470" y="380" width="260" height="180" rx="14" fill="#ffffff" stroke="#d8c98f" stroke-width="4"/>
+    <circle cx="530" cy="440" r="26" fill="none" stroke="#e2694f" stroke-width="5"/>
+    <circle cx="600" cy="440" r="26" fill="#4ba894" opacity="0.85"/>
+    <circle cx="670" cy="440" r="26" fill="none" stroke="#e2694f" stroke-width="5"/>
+    <circle cx="530" cy="505" r="26" fill="none" stroke="#e2694f" stroke-width="5"/>
+    <circle cx="600" cy="505" r="26" fill="none" stroke="#e2694f" stroke-width="5"/>
+  </g>
+  <!-- flags -->
+  <g>
+    <path d="M300 300 v 120" stroke="#7a5a3a" stroke-width="6"/>
+    <path d="M300 300 l 70 22 l -70 22 Z" fill="#e2694f"/>
+    <path d="M900 290 v 130" stroke="#7a5a3a" stroke-width="6"/>
+    <path d="M900 290 l 70 22 l -70 22 Z" fill="#4ba894"/>
+  </g>
+  <text x="40" y="640" fill="#5a4a2e" font-size="26" opacity="0.85">イメージ</text>
+  <text x="1160" y="640" fill="#5a4a2e" font-size="26" text-anchor="end" opacity="0.7">登戸タイムズ</text>
+</svg>
