@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <defs>
+    <linearGradient id="sky4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eaf3e8"/>
+      <stop offset="1" stop-color="#fbf6e8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#sky4)"/>
+  <circle cx="1040" cy="110" r="50" fill="#f2a24b"/>
+  <!-- ground -->
+  <rect x="0" y="520" width="1200" height="155" fill="#cdbfa0"/>
+  <rect x="0" y="520" width="1200" height="12" fill="#ab9a78"/>
+  <!-- shop building -->
+  <g>
+    <rect x="130" y="150" width="700" height="380" fill="#f5ede0"/>
+    <rect x="130" y="150" width="700" height="60" fill="#3a7d44"/>
+    <text x="480" y="192" font-size="34" text-anchor="middle" fill="#ffffff" font-weight="bold">大関屋青果店</text>
+    <!-- awning -->
+    <g>
+      <path d="M150 210 L810 210 L780 270 L180 270 Z" fill="#e8963f"/>
+      <path d="M150 210 L810 210 L810 224 L150 224 Z" fill="#c97a2b"/>
+      <g fill="#f6f1e6">
+        <path d="M195 224 L235 224 L221 268 L181 268 Z"/>
+        <path d="M275 224 L315 224 L301 268 L261 268 Z"/>
+        <path d="M355 224 L395 224 L381 268 L341 268 Z"/>
+        <path d="M435 224 L475 224 L461 268 L421 268 Z"/>
+        <path d="M515 224 L555 224 L541 268 L501 268 Z"/>
+        <path d="M595 224 L635 224 L621 268 L581 268 Z"/>
+        <path d="M675 224 L715 224 L701 268 L661 268 Z"/>
+        <path d="M755 224 L795 224 L781 268 L741 268 Z"/>
+      </g>
+    </g>
+    <!-- window / shopfront -->
+    <rect x="180" y="290" width="600" height="200" fill="#dcefe6" stroke="#3a7d44" stroke-width="6"/>
+    <!-- produce crates -->
+    <g>
+      <rect x="205" y="420" width="130" height="60" rx="6" fill="#8a5a34"/>
+      <circle cx="230" cy="415" r="16" fill="#d4432c"/>
+      <circle cx="260" cy="412" r="16" fill="#e0552f"/>
+      <circle cx="290" cy="416" r="16" fill="#d4432c"/>
+      <circle cx="320" cy="413" r="16" fill="#e0552f"/>
+
+      <rect x="360" y="420" width="130" height="60" rx="6" fill="#8a5a34"/>
+      <ellipse cx="385" cy="414" rx="15" ry="18" fill="#e8b23a"/>
+      <ellipse cx="415" cy="411" rx="15" ry="18" fill="#f0c34d"/>
+      <ellipse cx="445" cy="415" rx="15" ry="18" fill="#e8b23a"/>
+      <ellipse cx="475" cy="412" rx="15" ry="18" fill="#f0c34d"/>
+
+      <rect x="515" y="420" width="130" height="60" rx="6" fill="#8a5a34"/>
+      <path d="M540 415 q 8 -22 16 0 q 8 -22 16 0 q -4 20 -16 20 q -12 0 -16 -20" fill="#3f8f4f"/>
+      <path d="M600 415 q 8 -22 16 0 q 8 -22 16 0 q -4 20 -16 20 q -12 0 -16 -20" fill="#4fa25e"/>
+
+      <rect x="670" y="420" width="90" height="60" rx="6" fill="#8a5a34"/>
+      <path d="M690 480 L690 430 M700 480 L700 425 M710 480 L710 430 M720 480 L720 428 M730 480 L730 432" stroke="#e07a2f" stroke-width="8" stroke-linecap="round"/>
+    </g>
+  </g>
+  <!-- small tree -->
+  <g>
+    <rect x="970" y="440" width="18" height="80" fill="#7a5636"/>
+    <circle cx="979" cy="420" r="50" fill="#4a9457"/>
+  </g>
+  <g>
+    <rect x="90" y="460" width="16" height="60" fill="#7a5636"/>
+    <circle cx="98" cy="445" r="40" fill="#4a9457"/>
+  </g>
+  <text x="40" y="640" fill="#5a5340" font-size="26" opacity="0.9">イメージ</text>
+  <text x="1160" y="640" fill="#5a5340" font-size="26" text-anchor="end" opacity="0.7">登戸タイムズ</text>
+</svg>
