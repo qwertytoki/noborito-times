@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <defs>
+    <linearGradient id="duskSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2f3a63"/>
+      <stop offset="0.55" stop-color="#7a5b7f"/>
+      <stop offset="1" stop-color="#e8a45f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#duskSky)"/>
+  <circle cx="980" cy="150" r="55" fill="#fbe9c8" opacity="0.9"/>
+  <!-- distant tree line -->
+  <g fill="#233026" opacity="0.85">
+    <ellipse cx="120" cy="470" rx="160" ry="100"/>
+    <ellipse cx="320" cy="490" rx="180" ry="110"/>
+    <ellipse cx="560" cy="480" rx="170" ry="105"/>
+    <ellipse cx="820" cy="495" rx="190" ry="115"/>
+    <ellipse cx="1060" cy="475" rx="160" ry="100"/>
+  </g>
+  <!-- ground -->
+  <rect x="0" y="470" width="1200" height="205" fill="#3b3128"/>
+  <!-- stalls -->
+  <g>
+    <rect x="150" y="380" width="150" height="90" fill="#a8452f"/>
+    <path d="M140 380 L 310 380 L 300 340 L 150 340 Z" fill="#c65a3d"/>
+    <rect x="530" y="370" width="150" height="100" fill="#3c6e5e"/>
+    <path d="M520 370 L 690 370 L 680 328 L 530 328 Z" fill="#4f8873"/>
+    <rect x="900" y="380" width="150" height="90" fill="#a8452f"/>
+    <path d="M890 380 L 1060 380 L 1050 340 L 900 340 Z" fill="#c65a3d"/>
+  </g>
+  <!-- lanterns -->
+  <g>
+    <ellipse cx="225" cy="300" rx="26" ry="34" fill="#f2b134"/>
+    <ellipse cx="605" cy="285" rx="26" ry="34" fill="#f2b134"/>
+    <ellipse cx="975" cy="300" rx="26" ry="34" fill="#f2b134"/>
+    <line x1="225" y1="230" x2="225" y2="266" stroke="#5a4a3a" stroke-width="3"/>
+    <line x1="605" y1="215" x2="605" y2="251" stroke="#5a4a3a" stroke-width="3"/>
+    <line x1="975" y1="230" x2="975" y2="266" stroke="#5a4a3a" stroke-width="3"/>
+  </g>
+  <!-- people silhouettes -->
+  <g fill="#1c1712" opacity="0.85">
+    <circle cx="400" cy="560" r="16"/>
+    <rect x="386" y="576" width="28" height="60" rx="10"/>
+    <circle cx="460" cy="575" r="12"/>
+    <rect x="449" y="587" width="22" height="46" rx="9"/>
+    <circle cx="760" cy="555" r="16"/>
+    <rect x="746" y="571" width="28" height="65" rx="10"/>
+  </g>
+  <text x="40" y="640" fill="#fbe9c8" font-size="26" opacity="0.9">イメージ</text>
+  <text x="1160" y="640" fill="#fbe9c8" font-size="26" text-anchor="end" opacity="0.8">登戸タイムズ</text>
+</svg>
