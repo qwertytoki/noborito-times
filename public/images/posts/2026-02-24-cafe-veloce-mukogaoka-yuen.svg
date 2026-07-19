@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <rect width="1200" height="675" fill="#2b2320"/>
+  <!-- storefront wall -->
+  <rect x="0" y="0" width="1200" height="480" fill="#3d3028"/>
+  <!-- awning -->
+  <path d="M120 190 L 1080 190 L 1050 280 L 150 280 Z" fill="#7a3b2e"/>
+  <text x="600" y="245" fill="#f4e8d8" font-size="34" text-anchor="middle" letter-spacing="4">CAFE</text>
+  <!-- windows -->
+  <rect x="170" y="330" width="300" height="140" rx="10" fill="#f4d9a8"/>
+  <rect x="730" y="330" width="300" height="140" rx="10" fill="#f4d9a8"/>
+  <!-- door -->
+  <rect x="540" y="300" width="120" height="180" rx="6" fill="#241a12"/>
+  <rect x="560" y="330" width="80" height="70" rx="4" fill="#efd9ab" opacity="0.6"/>
+  <!-- coffee cup, center-bottom -->
+  <g>
+    <path d="M520 545 L 690 545 L 670 650 L 540 650 Z" fill="#f2ede1"/>
+    <ellipse cx="605" cy="545" rx="85" ry="16" fill="#fbf8f2"/>
+    <ellipse cx="605" cy="545" rx="60" ry="10" fill="#5a3a24"/>
+    <path d="M690 560 q 55 5 55 45 q 0 45 -55 40" fill="none" stroke="#f2ede1" stroke-width="12"/>
+  </g>
+  <!-- steam -->
+  <g stroke="#f5efdd" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.7">
+    <path d="M570 500 q 14 -24 0 -48"/>
+    <path d="M605 495 q 14 -24 0 -48"/>
+    <path d="M640 500 q 14 -24 0 -48"/>
+  </g>
+  <!-- ground -->
+  <rect x="0" y="480" width="1200" height="195" fill="#241b15"/>
+  <text x="40" y="640" fill="#f4e8d8" font-size="26" opacity="0.9">イメージ</text>
+  <text x="1160" y="640" fill="#f4e8d8" font-size="26" text-anchor="end" opacity="0.7">登戸タイムズ</text>
+</svg>
