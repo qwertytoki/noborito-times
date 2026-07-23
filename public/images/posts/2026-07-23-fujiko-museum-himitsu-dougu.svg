@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" font-family="'Hiragino Sans','Noto Sans JP',sans-serif">
+  <defs>
+    <linearGradient id="sky6" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dbeafe"/>
+      <stop offset="1" stop-color="#fdf6e3"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#sky6)"/>
+  <circle cx="150" cy="130" r="50" fill="#f6c453" opacity="0.85"/>
+  <!-- ground -->
+  <path d="M0 520 Q 300 480 600 520 T 1200 520 V 675 H 0 Z" fill="#cfe4c4"/>
+  <!-- museum building -->
+  <g>
+    <rect x="420" y="330" width="360" height="200" rx="10" fill="#ffffff" stroke="#8a8fb0" stroke-width="5"/>
+    <path d="M400 330 L 600 220 L 800 330 Z" fill="#7c85b3"/>
+    <circle cx="600" cy="410" r="48" fill="#eaf1fb" stroke="#8a8fb0" stroke-width="5"/>
+    <rect x="450" y="470" width="60" height="60" fill="#8a8fb0"/>
+    <rect x="690" y="470" width="60" height="60" fill="#8a8fb0"/>
+    <rect x="580" y="490" width="40" height="40" fill="#e2694f"/>
+  </g>
+  <!-- flag with 15 -->
+  <g>
+    <path d="M870 260 v 130" stroke="#7a5a3a" stroke-width="6"/>
+    <path d="M870 260 l 90 26 l -90 26 Z" fill="#4ba894"/>
+    <text x="885" y="292" fill="#ffffff" font-size="26" font-weight="bold">15</text>
+  </g>
+  <!-- ticket -->
+  <g transform="translate(230,420) rotate(-8)">
+    <rect x="0" y="0" width="150" height="90" rx="10" fill="#ffffff" stroke="#e2694f" stroke-width="4"/>
+    <circle cx="0" cy="45" r="10" fill="#fdf6e3" stroke="#e2694f" stroke-width="4"/>
+    <circle cx="150" cy="45" r="10" fill="#fdf6e3" stroke="#e2694f" stroke-width="4"/>
+    <line x1="30" y1="45" x2="120" y2="45" stroke="#e2694f" stroke-width="3" stroke-dasharray="6 6"/>
+  </g>
+  <!-- sparkles -->
+  <g fill="#f6c453">
+    <circle cx="960" cy="180" r="8"/>
+    <circle cx="1000" cy="220" r="5"/>
+    <circle cx="330" cy="250" r="6"/>
+  </g>
+  <text x="40" y="640" fill="#5a4a2e" font-size="26" opacity="0.85">イメージ</text>
+  <text x="1160" y="640" fill="#5a4a2e" font-size="26" text-anchor="end" opacity="0.7">登戸タイムズ</text>
+</svg>
